@@ -148,8 +148,8 @@ void transform(functii fct[], char a[], int dim)
         int val = rand() % 3;//choose a random number that represents
                              //which encoding to apply to the current
                              //char
-        char *ch = fct[val](a[i]);//in ch store the result of the
-                                  //the result after applying the
+        char *ch = fct[val](a[i]);//in ch is stored the ch resulted  
+                                  //after applying the
                                   //encoding
         if(val < 2)
         {
