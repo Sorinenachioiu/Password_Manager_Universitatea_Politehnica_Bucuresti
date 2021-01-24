@@ -125,7 +125,7 @@ char *codif_3(char &ch)
     return ras;
 }
 
-//duplicate the letter on the position poz
+//duplicate the letter on the position poz of a string
 void sorinian_duplication(char a[], int poz, int &dim)
 {
     a[dim] = 'a';
